@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer</title>
+        <link rel="shortcut icon" href="RedKIcon.png" type="image/x-icon"/>
+        <meta name="author" content="Krishna Singh"/>
+        <meta name="description" content="This first Page of my Portfolio."/>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body >
+        <h1>My Timer:</h1>
+        <input type="number" id="num" placeholder="Enter minutes for timer" required />
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="resume()">Resume</button>
+        <button onclick="reset()">Reset</button>
+        <p><span id="min">00</span>:<span id="sec">00</span> minutes</p>
+    </body>
+    <script src="main.js"></script>
+</html>
